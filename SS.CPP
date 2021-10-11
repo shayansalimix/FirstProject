@@ -1,13 +1,177 @@
 #include <iostream>
 #include <math.h>
+#include <fstream>
 
 using namespace std;
-int plus (int c1,int c2,int c3);
-void validation (string user,string pass);
-void f1(int br [],int x);
-void f1(int br[],int z);
-void f1(int br[][3]);
+/*int plus (int c1,int c2,int c3);*/
+/*void validation (string user,string pass);*/
+//void f1(int br [],int x);
+//void f1(int br[],int z);
+//void f1(int br[][3]);
+/*class c1{
+	public:
+		void mt1(){
+			cout<<"bela ciao 	";
+		}
+		void mt2(){
+			int ss[10];
+			int *p;
+			p=ss;
+			p=p+9;
+			for(int i=0;i<10;i++){
+				cin>>ss[i];
+}
+			for(int i=0;i<10;i++){
+			cout<<*p<<"\t";
+			p--;
+}
+			
+		}
+};*/
+/*void display(int ss[][3],int tt[][3]);
 string login ();
+
+
+string display1;
+class project{
+	public:
+		void add(){
+			int shayan1[3][3];
+			int shayan2[3][3];
+			cout<<"enter first numbers:"<<endl;
+			for(int i=0;i<3;i++){
+				for(int j=0;j<3;j++){
+					cin>>shayan1[i][j];
+				}
+			}
+			cout<<"-------------------"<<endl;
+			cout<<"enter second numbers:"<<endl;
+			for(int i=0;i<3;i++){
+				for(int j=0;j<3;j++){
+					cin>>shayan2[i][j];
+				}
+			}
+			for(int i=0;i<3;i++){
+				for(int j=0;j<3;j++){
+					shayan1[i][j]=shayan1[i][j]+shayan2[i][j];
+				}
+			}
+			cout<<"-------------------"<<endl;
+			for(int i=0;i<3;i++){
+				for(int j=0;j<3;j++){
+					cout<<shayan1[i][j]<<" ";
+				}
+			}
+		};
+		void differ(){
+			int sr1[3][3];
+			int sr2[3][3];
+			cout<<"enter first numbers:"<<endl;
+			for(int i=0;i<3;i++){
+				for(int j=0;j<3;j++){
+					cin>>sr1[i][j];
+				}
+			}
+			cout<<"-------------------"<<endl;
+			cout<<"enter second numbers:"<<endl;
+			for(int i=0;i<3;i++){
+				for(int j=0;j<3;j++){
+					cin>>sr2[i][j];
+				}
+			}
+			for(int i=0;i<3;i++){
+				for(int j=0;j<3;j++){
+					sr1[i][j]=sr1[i][j]-sr2[i][j];
+				}
+			}
+			cout<<"-------------------"<<endl;
+			for(int i=0;i<3;i++){
+				for(int j=0;j<3;j++){
+					cout<<sr1[i][j]<<" ";
+					
+				}
+			}
+			
+		}
+		void error(){
+			for(int i=3;i>0;i--){
+				if(display1=="add"){
+					project adding1;
+					adding1.add();
+				}
+				if(display1=="differ"){
+					project differing2;
+					differing2.differ();
+				}
+				cout<<"Your answer is false!"<<"  Your remaining chances:"<<i<<endl;
+				cin>>display1;
+				
+			}
+			cout<<endl<<"xxxxxxxxxxxxxxxxxxxxxxxxxxx"<<endl<<"x Your  access has denied x"<<endl<<"xxxxxxxxxxxxxxxxxxxxxxxxxxx"<<endl;
+		}
+};*/
+/*class cars{
+	public:
+		string company;
+		string color;
+
+};*/
+ /*class cars{
+	public:
+		string color;
+		string company;
+};*/
+class c1{
+	public:
+		void add(){
+		int x,z;
+		cin>>x>>z;
+		cout<<x+z<<endl;
+		};
+		c1 (){
+			cout<<"welcome"<<endl;
+		}
+		~c1 (){
+			cout<<"fine";
+		}
+};
+/*class f{
+	public:
+		void masafat(int a,int b){
+			cout<<a-b;
+		}
+		
+};*/
+/*class cars{
+	private:
+		string color;
+		
+		};
+		class c1{
+			public:
+				int x;
+				c1(){
+					cout<<"class created";
+				}
+		};*/
+	/*	class point{
+			private:
+				string color;
+			public:	
+				point(){
+					color="red";
+				}
+					string cb(){
+						color="green";
+						return color;
+					}
+		};*/
+		/*class c1{
+			public:
+			c1(int s){
+				cout<<s;
+			};
+		};*/
 int main()
 {
       //cout<< "shayan \tsalimi";
@@ -501,8 +665,238 @@ int *p;
 p=&a;
 //cout<<p;
 cout<<*p;*/
+
+/*int ss[3][3];
+for(int i=0;i<3;i++)
+	for(int j=0;j<3;j++)
+		cin>>ss[i][j];
+	for(int i=0;i<3;i++)
+		for(int j=0;j<3;j++)
+		
+		if(ss[0][0]<ss[0][1])
+		
+		 
+		
+	for(int i=0;i<3;i++)
+		for(int j=0;j<3;j++)	
+		cout<<ss[i][j];*/
+		
+/*int a=2;
+int *p;
+p=&a;
+cout<<*p;*/		
+		
+/*int a=2;
+int*p,*q;
+p=&a;
+//cout<<*p;		
+q=p;
+cout<<*p;
+cout<<p;*/		
+
+/*int x=5;
+cout<<sizeof(x);
+cout<<endl;
+float b;
+cout<<sizeof(b);
+cout<<endl;
+char a='c';
+cout<<sizeof(a);
+cout<<endl;
+string d="damn";
+cout<<sizeof(d);
+cout<<endl;
+long int m=5;
+cout<<sizeof(m);*/
+
+/*int x[2];
+cout<<sizeof(x);*/
+
+/*int s=10;
+int *p;
+p=&s;
+cout<<p<<endl;
+p++;
+cout<<p;*/
+	
+/*int ar[4]={0,5,2,1};
+int *p;
+p=ar;
+cout<<p<<endl;
+cout<<*p;*/
+
+/*int ss[10];
+int *p;
+p=ss;
+for(int i=0;i<10;i++){
+	cin>>ss[i];
+}
+for(int i=0;i<10;i++){
+	cout<<*p<<"\t";
+	p++;
+}*/
+
+/*int ss[10];
+int *p;
+p=ss;
+p=p+9;
+for(int i=0;i<10;i++){
+	cin>>ss[i];
+}
+for(int i=0;i<10;i++){
+	cout<<*p<<"\t";
+	p--;
+}*/
+
+/*int first[3][3];
+int second[3][3];
+cout<<"Enter first numbers:"<<endl;
+for(int i=0;i<3;i++){
+	for(int j=0;j<3;j++)
+	cin>>first[i][j];
+}
+cout<<"Enter second numbers:"<<endl;
+for(int i=0;i<3;i++){
+	for(int j=0;j<3;j++)
+	cin>>second[i][j];
+}
+display(first,second);
+for(int i=0;i<3;i++)
+	for(int j=0;j<3;j++)
+	cout<<first[i][j]<<" ";
+	cout<<endl;
+for(int i=0;i<3;i++)
+	for(int j=0;j<3;j++)
+	cout<<second[i][j]<<" ";*/
+	
+	
+/*int aa[10],bb[10],cc[10],i;
+int *p,*x;
+p=aa,x=bb;
+for(i=0;i<10;i++){
+    cin>>aa[i];
+}
+for(i=0;i<10;i++){
+    cin>>bb[i];
+}
+for (i=0;i<10;i++){
+cc[i]=*x+*p;
+p++;
+x++;
+}
+for (i=0;i<10;i++){
+    cout<<cc[i]<<" ";
+}*/
+
+/*c1 obj1;
+obj1.mt1();*/
+
+/*c1 obj2;
+obj2.mt2();*/
+
+/*c1 obj1,obj2,obj3,obj4;
+obj1.mt1();
+obj2.mt1();
+obj3.mt1();
+obj4.mt1();*/  
+
+/*cout<<"Select an operation:"<<endl<<"1.add    2.differ"<<endl<<"I want ";
+	cin>>display1;
+	cout<<"-------------------"<<endl;
+	if(display1=="add"){
+		project adding1;
+		adding1.add();
+	}
+	if(display1=="differ"){
+		project differing2;
+		differing2.differ();
+	}
+	if((display1!="add")&&(display1!="differ")){
+		project failed3;
+		failed3.error();
+	}*/
+
+/*cars benz;
+benz.company="benz";*/
+
+/*cars honda;
+honda.company="honda";
+honda.color="red";
+cout<<honda.company<<endl<<honda.color;*/ 
+
+/*int a,b;
+cin>>a>>b;
+f benz;
+benz.masafat(a,b);*/
+                   
+/*cars benz;
+benz.color="red"; */
+
+//c1 obj1;
+ /*point obj;
+ string s=obj.cb();
+ cout<<s; */
+ //c1 obj(12);  
+ /*c1 obj1;
+ obj1.add();*/
+ //string f;
+ //ofstream f1ss ("D:\\z.dat");
+   
+/*ofstream f1ss ("C:\\z.dat");  
+if(!f1ss){
+	cout<<"error";
+	exit(0);
+}   */
+/*string s;
+cin>>s;
+ofstream f1ss ("D:\\z.dat");  
+if(!f1ss){
+	cout<<"error";
+	exit(0);
+}   
+f1ss<<s;
+f1ss.close();*/
+ 
+/*string s,f;
+ofstream s1 ("D:\\z.dat");
+if(!s1){
+	cout<<"error";
+	exit(0);
+}
+while(true){
+cin>>s;
+if(s=="exit")
+break;
+	s1<<s<<endl;
+	
+}
+s1.close();*/
+string s;
+ifstream s1("D:\\z.dat");
+s1>>s;
+while(!s1.eof()){
+cout<<s;
+cout<<endl;
+s1>>s;
+}
+s1.close();
+
 	 	return 0;  
 }
+/*void display(int ss[][3],int tt[][3]){
+	cout<<"Enter additional number:"<<endl;
+	int z;
+	cin>>z;
+	cout<<endl;
+	for(int i=0;i<3;i++)
+		for(int j=0;j<3;j++)
+		if(ss[i][j]==z)
+			ss[i][j]=0;
+	for(int i=0;i<3;i++)
+		for(int j=0;j<3;j++)
+		if(tt[i][j]==z)
+			tt[i][j]=0;
+	}*/
 
 /*void f1(int br[][3]){
 for(int i=0;i<3;i++)
@@ -514,6 +908,7 @@ for(int i=0;i<3;i++)
 /*void f1 (int br [],int x){
 	br[0]=99;
 }*/
+
 /*void f1(int br[],int x){
 	for (int i=0;i<x;i++)
 	br[i]=br[i]*2;
